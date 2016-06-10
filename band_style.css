@@ -25,7 +25,7 @@ body{
 	margin: auto;
 }
 .carousel-img{
-	max-height: 300px;
+	min-height: 500px;
 }
 .carousel-caption h3{
 	color: #fff !important;
@@ -54,9 +54,13 @@ body{
 	border-bottom-left-radius: 0; 
 }
 .thumbnail{
-	padding: 0 0 15px 0;
+	padding: 10px 0 15px 0;
 	border: none;
 	border-radius: 0;
+}
+.thumbnail img{
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
 }
 .thumpnail p{
 	margin-top: 15px;
